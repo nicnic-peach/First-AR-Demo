@@ -12,9 +12,13 @@
         
       <a-scene embedded arjs='sourceType: webcam;'>
           
-           <a-box position='0 0.5 0' colour="purple"></a-box>
+           <!--a-box position='0 0.5 0' colour="purple"></a-box-->
           
-           <a-text value="Look at \n my purple cube" color="black" position="0 1.2 0" > </a-text>
+           <!--a-text value="Look at \n my purple cube" color="black" position="0 1.2 0" > </a-text-->
+        
+          <a-entity obj-model="obj:url(./Assests/tree1.obj); mtl:url(./Assests/tree1.mtl)"></a-entity>
+          
+          <a-light type="ombient" color="gfdfaff" intensity:="" 1.2="" light=""></a-light>
           
            <a-marker-camera preset='hiro'></a-marker-camera>
         
